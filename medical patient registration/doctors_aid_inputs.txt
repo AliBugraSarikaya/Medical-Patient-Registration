@@ -1,0 +1,26 @@
+create Mary, 0.999, Breast Cancer, 50/100000, Surgery, 0.40
+create James, 0.9999, Lung Cancer, 40/100000, Radiotherapy, 0.50
+create Emma, 0.99, Thyroid Cancer, 16/100000, Chemotherapy, 0.02
+probability Mary
+recommendation Emma
+create Robert, 0.98, Prostate Cancer, 21/100000, Hormonotherapy, 0.20
+create Linda, 0.9975, Stomach Cancer, 15/100000, Immunotherapy, 0.04
+recommendation Linda
+create Olivia, 0.9997, Colon Cancer, 14/100000, Targeted Therapy, 0.30
+list
+remove Emma
+probability Emma
+recommendation Barbara
+create Barbara, 0.98, Breast Cancer, 50/100000, Chemotherapy, 0.20
+recommendation Barbara
+list
+probability James
+probability Olivia
+remove Mike
+remove Olivia
+recommendation Olivia
+create Mike, 0.9895, Bladder Cancer, 40/100000, Surgery, 0.15
+list
+recommendation James
+probability Mike
+recommendation Mike

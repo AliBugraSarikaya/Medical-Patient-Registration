@@ -1,0 +1,71 @@
+Patient Mary is recorded.
+Patient James is recorded.
+Patient Emma is recorded.
+Patient Mary has a probability of 33.34% of having breast cancer.
+System suggests Emma NOT to have the treatment.
+Patient Robert is recorded.
+Patient Linda is recorded.
+System suggests Linda to have the treatment.
+Patient Olivia is recorded.
++----------------------+------------------------+------------------------+-------------------+-----------------------+-------------+
+| Patient              | Diagnosis              | Disease                | Disease           | Treatment             | Treatment   |
+| Name                 | Accuracy               | Name                   | Incidence         | Name                  | Risk        |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| Mary                 | 99.90%                 | Breast Cancer          | 50/100000         | Surgery               | 40%         |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| James                | 99.99%                 | Lung Cancer            | 40/100000         | Radiotherapy          | 50%         |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| Emma                 | 99.00%                 | Thyroid Cancer         | 16/100000         | Chemotherapy          | 2%          |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| Robert               | 98.00%                 | Prostate Cancer        | 21/100000         | Hormonotherapy        | 20%         |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| Linda                | 99.75%                 | Stomach Cancer         | 15/100000         | Immunotherapy         | 4%          |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| Olivia               | 99.97%                 | Colon Cancer           | 14/100000         | Targeted Therapy      | 30%         |
++----------------------+------------------------+------------------------+-------------------+-----------------------+-------------+
+Patient Emma is removed.
+Probability for Emma cannot be calculated due to absence.
+Recommendation for Barbara cannot be calculated due to absence.
+Patient Barbara is recorded.
+System suggests Barbara NOT to have the treatment.
++----------------------+------------------------+------------------------+-------------------+-----------------------+-------------+
+| Patient              | Diagnosis              | Disease                | Disease           | Treatment             | Treatment   |
+| Name                 | Accuracy               | Name                   | Incidence         | Name                  | Risk        |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| Mary                 | 99.90%                 | Breast Cancer          | 50/100000         | Surgery               | 40%         |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| James                | 99.99%                 | Lung Cancer            | 40/100000         | Radiotherapy          | 50%         |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| Robert               | 98.00%                 | Prostate Cancer        | 21/100000         | Hormonotherapy        | 20%         |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| Linda                | 99.75%                 | Stomach Cancer         | 15/100000         | Immunotherapy         | 4%          |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| Olivia               | 99.97%                 | Colon Cancer           | 14/100000         | Targeted Therapy      | 30%         |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| Barbara              | 98.00%                 | Breast Cancer          | 50/100000         | Chemotherapy          | 20%         |
++----------------------+------------------------+------------------------+-------------------+-----------------------+-------------+
+Patient James has a probability of 80.01% of having lung cancer.
+Patient Olivia has a probability of 31.82% of having colon cancer.
+Patient Mike cannot be removed due to absence.
+Patient Olivia is removed.
+Recommendation for Olivia cannot be calculated due to absence.
+Patient Mike is recorded.
++----------------------+------------------------+------------------------+-------------------+-----------------------+-------------+
+| Patient              | Diagnosis              | Disease                | Disease           | Treatment             | Treatment   |
+| Name                 | Accuracy               | Name                   | Incidence         | Name                  | Risk        |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| Mary                 | 99.90%                 | Breast Cancer          | 50/100000         | Surgery               | 40%         |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| James                | 99.99%                 | Lung Cancer            | 40/100000         | Radiotherapy          | 50%         |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| Robert               | 98.00%                 | Prostate Cancer        | 21/100000         | Hormonotherapy        | 20%         |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| Linda                | 99.75%                 | Stomach Cancer         | 15/100000         | Immunotherapy         | 4%          |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| Barbara              | 98.00%                 | Breast Cancer          | 50/100000         | Chemotherapy          | 20%         |
+| -------------------- | ---------------------- | ---------------------- | ----------------- | --------------------- | ----------- |
+| Mike                 | 98.95%                 | Bladder Cancer         | 40/100000         | Surgery               | 15%         |
++----------------------+------------------------+------------------------+-------------------+-----------------------+-------------+
+System suggests James to have the treatment.
+Patient Mike has a probability of 3.67% of having bladder cancer.
+System suggests Mike NOT to have the treatment.
