@@ -1,1 +1,1 @@
-# Medical-Patient-Registration
+A code that healthcare professionals can use comfortably.In the input file format given as an example, there are options such as changing the input file and saving which patient, removing which patient, which patient's cancer probability is, which patient should be treated or not, and viewing the list and information of all patients.
